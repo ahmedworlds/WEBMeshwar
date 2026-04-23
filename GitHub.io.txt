@@ -1,0 +1,34 @@
+
+GoDaddy DNS
+Type	Name	Data		TTL
+A	@	185.199.108.153	600
+A	@	185.199.109.153	600
+A	@	185.199.110.153	600
+A	@	185.199.111.153	600
+CNAME	www	ahmedworlds.github.io.	600
+
+
+GitHub
+In WEBMeshwar repo → Add file → CNAME
+Content: test.meshwar.net (just this text, no quotes)
+
+GitHub
+Settings → Pages → Custom domain
+Enter: meshwar.net → Save → ☑️ Enforce HTTPS
+
+GitHub WEBMeshwar repo
+Create CNAME file
+Content: meshwar.net
+
+Wait
+DNS propagation
+5–30 minutes
+
+Test
+Browser
+Visit: https://www.meshwar.net
+
+
+
+https://chat.qwen.ai/c/907e1649-ffaf-4f5b-a9ef-1235f11ee701
+
